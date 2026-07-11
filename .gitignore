@@ -1,0 +1,26 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Office / Word lock & temp files
+~$*.docx
+~$*.doc
+*.tmp
+
+# Generated exports (regenerate from the .md source; don't commit binaries)
+*.pdf
+*.docx
+
+# Private research scratch space — not for the citation audit trail
+_scratch/
+_drafts/
+
+# Log files
+*.log
