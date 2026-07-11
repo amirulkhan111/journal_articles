@@ -9,6 +9,7 @@
 
 ## [Author Last, First. "Title." Journal, vol. #, no. #, Year, pp. ##-##.]
 
+- **Verbatim bibliographic record:** [author name(s), exact title, container, volume, issue, year, page range, publisher, DOI/URL — copied exactly as shown on the source or its official publisher/database record, for direct use in the Works Cited entry]
 - **Access:** [database / URL / DOI / library — how this source was actually obtained]
 - **Relevant claims / verbatim quotations used:**
   - "[exact quotation]" (p. ##) — used to support [point in article]
