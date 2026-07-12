@@ -54,7 +54,7 @@ Every article must read as the work of a human scholar with a specific critical 
 Every article is produced in two forms, kept in sync:
 
 - **`article.md`** — the editable Markdown source, MLA-formatted, and the version tracked for diffs/history.
-- **`article.docx`** — a print-ready Word document generated from `article.md`: MLA manuscript formatting (Times New Roman 12pt, double-spaced throughout, 1-inch margins, header with author surname and page number, hanging-indent Works Cited page). Generated fresh whenever `article.md` changes — the two must never drift out of sync.
+- **`article.docx`** — a print-ready Word document generated from `article.md`: MLA manuscript formatting (Times New Roman 12pt, double-spaced throughout, 1-inch margins, header with author surname and page number, hanging-indent Works Cited page). Generated fresh whenever `article.md` changes — the two must never drift out of sync. Generate/regenerate it with `node tools/build_docx.js articles/<topic-slug>/article.md` (run `npm install` in `tools/` once first).
 
 ## Repository structure
 
@@ -67,6 +67,9 @@ articles/
   _template/
     ARTICLE_TEMPLATE.md
     SOURCES_TEMPLATE.md
+tools/
+  build_docx.js         # node tools/build_docx.js articles/<topic-slug>/article.md
+  package.json           # `npm install` here once to get the docx dependency
 ```
 
 - One subfolder per topic under `articles/`, named with a short kebab-case slug (e.g. `articles/eco-criticism-hardy/`, `articles/politeness-theory-pragmatics/`).
@@ -86,6 +89,6 @@ articles/
 
 ## Status
 
-- [`articles/trauma-memory-beloved/`](articles/trauma-memory-beloved/) — "Trauma, Memory, and the Unspeakable in Toni Morrison's *Beloved*," drawing on Krumholz (*African American Review* 1992), Koolish (*MELUS* 2001), and Lakshmi K et al. (*Theory and Practice in Language Studies* 2025). Author name is a placeholder — fill in before submission. **Predates the length/docx/plagiarism-check requirements above** — needs expansion to 2,500–3,000 words, a generated `.docx`, and a recorded plagiarism-check score before it counts as submission-ready under current policy.
+- [`articles/trauma-memory-beloved/`](articles/trauma-memory-beloved/) — "Trauma, Memory, and the Unspeakable in Toni Morrison's *Beloved*," drawing on Krumholz (*African American Review* 1992), Koolish (*MELUS* 2001), and Lakshmi K et al. (*Theory and Practice in Language Studies* 2025). 2,725 words of body text, `.docx` generated. Author name is still a placeholder — fill in before submission. **Not yet submission-ready:** the plagiarism-check score in `sources.md` is still pending a real checker run (see "Plagiarism ceiling" above).
 
 Further topics will be added one at a time as subfolders under `articles/`.

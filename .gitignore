@@ -21,5 +21,8 @@ desktop.ini
 _scratch/
 _drafts/
 
+# Node dependencies for tools/build_docx.js — reinstall with `npm install`
+tools/node_modules/
+
 # Log files
 *.log

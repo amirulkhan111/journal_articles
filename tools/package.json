@@ -1,0 +1,8 @@
+{
+  "name": "journal-articles-tools",
+  "private": true,
+  "description": "Local tooling for this repo (MLA .docx generation from article.md).",
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}
