@@ -37,6 +37,18 @@ How this is achieved during drafting (since this repository has no access to a p
 - All connecting analysis, transitions, and argument are written fresh, not lightly reworded ("patchwriting") from a source's sentence structure.
 - **Before an article is treated as submission-ready, run it through an actual plagiarism checker and record the result** (tool used, date, similarity score) in that topic's `sources.md`. An article without a recorded, verified score under 7% is a draft, not a finished article.
 
+## Voice and style
+
+Every article must read as the work of a human scholar with a specific critical point of view, not as generic AI-generated prose. Concretely:
+
+- **Take a real position.** Argue a thesis instead of hedging every claim with "on one hand / on the other hand" false balance. A critic who never commits to a reading isn't saying anything.
+- **Vary sentence and paragraph rhythm.** Avoid the flattened cadence of uniform-length sentences and identically structured paragraphs (claim, quote, gloss, repeat) marching through every section at the same pace.
+- **Cut AI stock phrases.** No "delve into," "tapestry," "testament to," "underscores," "boasts," "in today's landscape," "navigate the complexities of," "it is important to note," "moreover" as a default transition, or reflexive "in conclusion" throat-clearing. If a phrase would look at home in a generic AI-written blog post, replace it.
+- **Don't over-signpost.** Skip mechanical scaffolding like "This section will argue that…" / "As discussed above…" — let the argument's own logic carry the reader instead of narrating the essay's structure to itself.
+- **Don't over-summarize.** Avoid restating the thesis in near-identical words at the top and bottom of every section; a conclusion should extend the argument's implications, not just echo the introduction.
+- **Prefer precise, specific word choice over generic academic filler.** Say what a source actually claims and why it matters to the argument, rather than reaching for vague intensifiers.
+- **Read it aloud before finishing.** If a paragraph sounds like it could have been generated from the section heading alone — interchangeable with a dozen other essays on the same topic — rewrite it with a more particular, opinionated critical voice.
+
 ## Output formats
 
 Every article is produced in two forms, kept in sync:
@@ -68,7 +80,7 @@ articles/
 3. Log each source in `sources.md` with its exact bibliographic details (copied verbatim from the source/publisher record) and the exact quotations/claims it supports, as research proceeds.
 4. Draft the article in `article.md`, using the template in `articles/_template/ARTICLE_TEMPLATE.md`, with verbatim in-text MLA citations tied to entries in `sources.md`, until it clears **2,500–3,000 words** of substantive body text.
 5. Compile the Works Cited list from the verbatim bibliographic details in `sources.md`, formatted per current MLA style — cross-check every entry against `sources.md` field by field.
-6. Review against the integrity policy, research-ethics practices, and plagiarism ceiling above.
+6. Review against the integrity policy, research-ethics practices, plagiarism ceiling, and voice-and-style guidance above.
 7. Generate `article.docx` from the finished `article.md` in MLA manuscript format, and regenerate it any time `article.md` changes.
 8. Before calling the article submission-ready, run it through a plagiarism checker and record the tool, date, and score in `sources.md`; confirm the score is under 7%.
 
