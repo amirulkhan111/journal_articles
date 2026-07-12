@@ -18,3 +18,12 @@
 ---
 
 ## [Next source...]
+
+---
+
+## Plagiarism check
+
+- **Tool used:** [e.g. Turnitin, iThenticate]
+- **Date run:** [date]
+- **Similarity score:** [#%] — must be under 7% before the article is submission-ready.
+- **Notes:** [any flagged passages and how they were resolved]

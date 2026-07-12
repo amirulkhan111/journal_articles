@@ -10,13 +10,12 @@ desktop.ini
 *.swo
 
 # Office / Word lock & temp files
-~$*.docx
-~$*.doc
+~$*
 *.tmp
 
-# Generated exports (regenerate from the .md source; don't commit binaries)
+# Generated exports — article.docx is tracked on purpose (print-ready
+# deliverable, see README); only stray PDF exports are ignored here.
 *.pdf
-*.docx
 
 # Private research scratch space — not for the citation audit trail
 _scratch/

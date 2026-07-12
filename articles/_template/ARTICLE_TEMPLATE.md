@@ -3,6 +3,12 @@
   Do not remove a section header even if brief; leave a note instead.
   Every quotation and claim must trace back to a real entry in this
   topic's sources.md — see the Integrity Policy in the repo README.
+
+  Body text (Introduction through Conclusion, excluding abstract and
+  Works Cited) must total 2,500-3,000 words minimum — no compromise.
+  Once finished, generate article.docx from this file (print-ready MLA
+  manuscript format) and run a plagiarism check, recording the result
+  in sources.md, before treating the article as submission-ready.
 -->
 
 # [Article Title, Title Case]
