@@ -40,4 +40,6 @@ articles/
 
 ## Status
 
-Scaffolding only — no articles have been written yet. Topics will be added one at a time as subfolders under `articles/`.
+- [`articles/trauma-memory-beloved/`](articles/trauma-memory-beloved/) — "Trauma, Memory, and the Unspeakable in Toni Morrison's *Beloved*," drawing on Krumholz (*African American Review* 1992), Koolish (*MELUS* 2001), and Lakshmi K et al. (*Theory and Practice in Language Studies* 2025). Author name is a placeholder — fill in before submission.
+
+Further topics will be added one at a time as subfolders under `articles/`.
