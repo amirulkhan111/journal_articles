@@ -59,7 +59,14 @@
 
 ## Plagiarism check
 
-- **Tool used:** Not yet run — this repository has no access to a plagiarism-detection service (see README, "Plagiarism ceiling").
-- **Date run:** —
-- **Similarity score:** Pending. Drafting practice followed the README policy: all direct quotations are short, marked, and cited; all connective analysis and argument between quotations is original synthesis, not paraphrase of source sentence structure.
-- **Notes:** Run this article through an actual checker (e.g., Turnitin, iThenticate) before submission and record the result here. The article is not submission-ready under repository policy until this section shows a verified score under 7%.
+- **Certified score: still pending.** No Turnitin/iThenticate-equivalent tool is available in this environment, and no percentage is recorded here that wasn't produced by an actual similarity-detection database — a fabricated number would violate the integrity policy this repository exists to enforce. **The article is not submission-ready until a real tool has been run and a genuine score recorded below.**
+
+- **Informal manual spot-check performed 2026-07-12 (not a substitute for the above):** six distinctive sentences of original connective analysis (not quotations) were pulled from the article and searched verbatim, in quotation marks, via web search, to check for exact coincidental matches with existing indexed text:
+  1. "she lived inside a system that had already decided, on paper, what kind of thing she was" — no match.
+  2. "using the house as a kind of seismograph, a device for registering the pressure" — no match.
+  3. "a kind of accounting that was never supposed to add up" — no match.
+  4. "Goodness, on this account, isn't a fixed quality you either have or lack" — no match.
+  5. "That opposition is why Beloved cannot end in the ordinary sense" — no exact match (search surfaced general commentary on the novel's ambiguous ending, not this sentence).
+  6. "Anyone who walks into that place can run into it, whether or not they were there when it happened" — no match.
+- **What this check does and does not show:** zero coincidental overlap in a six-sentence sample is a mildly reassuring signal, nothing more. It only searches web-indexed content — it cannot see the subscription journal databases, institutional repositories, or prior-student-paper corpora that Turnitin/iThenticate actually check against, and six sentences out of ~2,725 words of body text is not a representative sample. Treat this as "no obvious red flags found," not as evidence of a sub-7% score.
+- **Next step:** run the article through an actual institutional checker and replace this section with the tool name, date, and real score before treating the article as submission-ready.
