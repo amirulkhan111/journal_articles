@@ -70,5 +70,11 @@
   4. "Goodness, on this account, isn't a fixed quality you either have or lack" — no match.
   5. "That opposition is why Beloved cannot end in the ordinary sense" — no exact match (search surfaced general commentary on the novel's ambiguous ending, not this sentence).
   6. "Anyone who walks into that place can run into it, whether or not they were there when it happened" — no match.
-- **What this check does and does not show:** zero coincidental overlap in a six-sentence sample is a mildly reassuring signal, nothing more. It only searches web-indexed content — it cannot see the subscription journal databases, institutional repositories, or prior-student-paper corpora that Turnitin/iThenticate actually check against, and six sentences out of ~2,725 words of body text is not a representative sample. Treat this as "no obvious red flags found," not as evidence of a sub-7% score.
+- **Informal manual spot-check performed 2026-07-16, round 2 (also not a substitute for the above):** four more distinctive original sentences, from sections not covered in the first round, searched the same way:
+  1. "knowing where the past lives, as a fact about the world, is not the same as being able to survive going there" — no match.
+  2. "it names a presence that is simultaneously constitutive and denied, load-bearing and officially unacknowledged" — no match.
+  3. "your hands are not items on someone else's inventory" — no match.
+  4. "A novel cannot actually refuse to be read. The refusal is part of the design" — no match (search surfaced unrelated discussions of "refusal" in design/literary theory, not this sentence).
+- **Running total:** 10 of ~2,725 words' worth of original sentences spot-checked across two rounds (2026-07-12 and 2026-07-16), zero coincidental matches found in either round.
+- **What this check does and does not show:** zero coincidental overlap across two rounds is a mildly reassuring signal, nothing more. It only searches web-indexed content — it cannot see the subscription journal databases, institutional repositories, or prior-student-paper corpora that Turnitin/iThenticate actually check against, and ten sentences is still not a representative sample of the full article. Treat this as "no obvious red flags found across two independent checks," not as evidence of a sub-7% score.
 - **Next step:** run the article through an actual institutional checker and replace this section with the tool name, date, and real score before treating the article as submission-ready.
