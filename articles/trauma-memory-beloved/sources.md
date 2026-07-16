@@ -13,11 +13,12 @@
   - "Beloved also acts as a trickster figure who defies narrative closure or categorization, foreclosing the possibility of a complete 'clearing' for the reader. Thus, as the reader leaves the book, we have taken on slavery's haunt as our own." (p. 397)
   - "The healing ritual in *Beloved* can be broken down into three stages. The first stage is the repression of memory that occurs from the traumas of slavery; the second stage entails a painful reconciliation with these memories; and the third is the 'clearing' process, a symbolic rebirth of the sufferer." (p. 397)
   - Quoting the novel (Baby Suggs's sermon in the Clearing): "She did not tell them to clean up their lives or to go and sin no more. She did not tell them they were the blessed of the earth, its inheriting meek or its glory bound pure. She told them that the only grace they could have was the grace they could imagine. That if they could not see it, they would not have it." (qtd. in Krumholz, p. 398, citing Morrison 88)
-  - Quoting the novel (Baby Suggs's situational ethics): "'Everything depends on knowing how much,' she said, and 'Good is knowing when to stop.'" (qtd. in Krumholz, p. 398, citing Morrison 87)
-  - Quoting the novel (Baby Suggs on white people, near her death): "there was no bad luck in the world but white people. 'They don't know when to stop,' she said." (qtd. in Krumholz, p. 398, citing Morrison 104)
-  - Quoting the novel (schoolteacher instructing his nephew): "I told you to put her human characteristics on the left; her animal ones on the right. And don't forget to line them up." (qtd. in Krumholz, p. 398, citing Morrison 193)
-  - Quoting the novel (on Bodwin's father, contrasted with Baby Suggs): "a deeply religious man who knew what God knew and told everybody what it was." (qtd. in Krumholz, p. 397–98, citing Morrison 260)
+  - Quoting the novel (Baby Suggs's situational ethics): "'Everything depends on knowing how much,' she said, and 'Good is knowing when to stop.'" (qtd. in Krumholz, p. 399, citing Morrison 87)
+  - Quoting the novel (Baby Suggs on white people, near her death): "there was no bad luck in the world but white people. 'They don't know when to stop,' she said." (qtd. in Krumholz, p. 399, citing Morrison 104)
+  - Quoting the novel (schoolteacher instructing his nephew): "I told you to put her human characteristics on the left; her animal ones on the right. And don't forget to line them up." (qtd. in Krumholz, p. 399, citing Morrison 193)
+  - Quoting the novel (on Bodwin's father, contrasted with Baby Suggs): "a deeply religious man who knew what God knew and told everybody what it was." (qtd. in Krumholz, p. 398, citing Morrison 260)
 - **Notes:** Foundational early (1992) reading of *Beloved* as a historical-recovery/healing narrative, read alongside Du Bois. Because I have not independently checked pagination against my own copy of the 1987 Knopf edition, all Morrison quotations sourced through this article are cited as "qtd. in Krumholz," not as direct (Morrison ##) citations. Some right-hand-column OCR in the middle pages of this PDF scan is badly garbled (words run together); only clean, unambiguous passages (confirmed against my own knowledge of these well-documented, frequently anthologized lines) are quoted directly above.
+- **Correction (2026-07-16):** A forensic audit (see `peer_review_audit.md`) cross-mapped this PDF's page-footer markers precisely and found three quotations had been mis-cited as page 398 when they actually fall on page 399 (the schoolteacher-ledger quote, the "knowing when to stop" quote, and the "no bad luck" quote); the Bodwin's-father quote's citation was tightened from the imprecise range "397–98" to the correct single page, 398. All corrected above and in `article.md`.
 
 ---
 
@@ -28,9 +29,9 @@
 - **Relevant claims / verbatim quotations used:**
   - "The struggle for psychic wholeness is a continuous one in Toni Morrison's *Beloved*, a novel situated in slavery and its aftermath." (p. 169)
   - "It is a process which requires access to painful memories; the characters in the novel reintegrate, achieve 'the join' … when they no longer refuse the deepest knowledge of the meanings of their individual and historical pasts." (p. 169)
-  - "Sethe's consciousness, and the consciousness of Denver, Paul D, and the twenty-year-old Beloved … are suffused with a truncated, relentless, disrupted chronology common to persons so severely abused that they suffer from Multiple Personality Disorder (MPD) or dissociative states." (pp. 169–70)
+  - "Sethe's consciousness, and the consciousness of Denver, Paul D, and the twenty-year-old Beloved … are suffused with a truncated, relentless, disrupted chronology common to persons so severely abused that they suffer from Multiple Personality Disorder (MPD) or dissociative states." (p. 170 — falls entirely on this page, not 169–70; corrected 2026-07-16 per peer_review_audit.md)
   - Quoting the novel (on Baby Suggs's grief): "a 'sadness . . . at her center, the desolated center where the self that was no self made its home.'" (qtd. in Koolish, p. 169, citing Morrison 140)
-  - Quoting the novel (Denver's soliloquy, on going deaf): "Made me have to read faces and learn how to figure out what people were thinking, so I didn't need to hear what they said." (qtd. in Koolish, p. 169, citing Morrison 206)
+  - Quoting the novel (Denver's soliloquy, on going deaf): "Made me have to read faces and learn how to figure out what people were thinking, so I didn't need to hear what they said." (qtd. in Koolish, pp. 169–70, citing Morrison 206 — spans the page break; corrected 2026-07-16 per peer_review_audit.md)
 - **Notes:** Psychological/psychoanalytic reading (dissociation, denial) of the novel's characters as a group, not just Sethe. Author affiliation given on the article itself: San Diego State University.
 
 ---
@@ -45,6 +46,7 @@
   - "Beloved draws from the historical case of Margaret Garner, an enslaved woman who killed her child to prevent re-enslavement. By weaving real history into fiction, Morrison reclaims erased narratives and affirms African American experiences." (p. 3910)
   - Quoting the novel (Baby Suggs's sermon): "Baby Suggs encourages people to 'love your hands' and appreciate their bodies (Morrison, 1987, pp. 103–104)." (p. 3913, repeated p. 3915) — given here as "qtd. in Lakshmi K et al.," same pagination caveat as above.
   - "The public singing and testimonies that take place during Baby Suggs' meetings in the Clearing serve as an example of 'sonic resistance,' which gives formerly enslaved people a feeling of community and value." (p. 3913)
+- **Correction (2026-07-16):** the DOI recorded above had not been carried into this entry's Works Cited listing in `article.md`; added per `peer_review_audit.md`, Part IV.
 - **Notes:** Recent (2025) source, useful to show the topic remains an active area of scholarship. Four authors, affiliated with institutions in India (Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology; SRM Institute of Science and Technology; Annamalai University; Malla Reddy Deemed to be University).
 
 ---
