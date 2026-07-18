@@ -2,6 +2,8 @@
 // Generate a print-ready MLA-manuscript .docx from an article.md.
 // Usage: node tools/build_docx.js articles/<topic-slug>/article.md
 // Writes article.docx next to the source .md (or override with a 2nd argv).
+// Pass --abstract-only to generate a Title/Abstract/Keywords-only document
+// instead (defaults to abstract.docx next to the source .md).
 const fs = require("fs");
 const path = require("path");
 const {
@@ -9,12 +11,18 @@ const {
   AlignmentType, Header, PageNumber, convertInchesToTwip,
 } = require("docx");
 
-const mdPath = process.argv[2];
+const rawArgs = process.argv.slice(2);
+const abstractOnly = rawArgs.includes("--abstract-only");
+const positional = rawArgs.filter(a => a !== "--abstract-only");
+const mdPath = positional[0];
 if (!mdPath) {
-  console.error("Usage: node tools/build_docx.js <path/to/article.md> [output.docx]");
+  console.error("Usage: node tools/build_docx.js <path/to/article.md> [output.docx] [--abstract-only]");
   process.exit(1);
 }
-const outPath = process.argv[3] || mdPath.replace(/\.md$/, ".docx");
+const defaultOut = abstractOnly
+  ? (/article\.md$/.test(mdPath) ? mdPath.replace(/article\.md$/, "abstract.docx") : mdPath.replace(/\.md$/, "-abstract.docx"))
+  : mdPath.replace(/\.md$/, ".docx");
+const outPath = positional[1] || defaultOut;
 const md = fs.readFileSync(mdPath, "utf8");
 const lines = md.split(/\r?\n/);
 
@@ -52,12 +60,32 @@ if (lines[i] && lines[i].startsWith("# ")) { title = lines[i].slice(2).trim(); i
 
 const children = [];
 let inWorksCited = false;
+let inAbstract = false;
 
 for (; i < lines.length; i++) {
   const line = lines[i];
   if (line.trim() === "") continue;
 
   if (line.startsWith("**Author:**")) authorLine = line;
+
+  if (abstractOnly) {
+    if (line.startsWith("## ")) {
+      inAbstract = line.slice(3).trim() === "Abstract";
+      if (inAbstract) {
+        children.push(new Paragraph({
+          children: [new TextRun({ text: "Abstract", bold: true, font: "Times New Roman", size: 24 })],
+          spacing: { line: 480, lineRule: "auto", before: 240 },
+        }));
+      }
+      continue; // skip every other section heading (Introduction, Works Cited, etc.)
+    }
+    if (line.startsWith("**Keywords:**")) {
+      children.push(bodyPara(line));
+      continue;
+    }
+    if (inAbstract) children.push(bodyPara(line));
+    continue; // skip Author/Affiliation/Date and every other section's body text
+  }
 
   if (line.startsWith("## ")) {
     const heading = line.slice(3).trim();
